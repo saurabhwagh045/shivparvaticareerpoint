@@ -11,6 +11,9 @@ const Programs = () => {
   return (
     <div className='programs-container'>
       {/* First Row */}
+      <div className='title'>
+       <h1>Defense Forces</h1>
+       </div>
       <div className='programs'>
         <div className="program">
           <img src={program_1} alt="Indian Army" />
@@ -33,6 +36,9 @@ const Programs = () => {
       </div>
 
       {/* Second Row (Duplicate of the First Row) */}
+      <div className='title'>
+       <h1>Government Services</h1>
+       </div>
       <div className='programs'>
         <div className="program">
           <img src={program_1_1} alt="Indian Army" />
